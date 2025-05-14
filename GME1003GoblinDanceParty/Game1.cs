@@ -13,7 +13,7 @@ namespace GME1003GoblinDanceParty
         private SpriteBatch _spriteBatch;
 
         //Declare some variables
-        private int _numStars;          //how many stars?
+        private int _numStars;          //how many stars? test
         private List<int> _starsX;      //list of star x-coordinates
         private List<int> _starsY;      //list of star y-coordinates
 
@@ -60,7 +60,7 @@ namespace GME1003GoblinDanceParty
             //List of Y coordinates
             for (int i = 0; i < _numStars; i++)
             {
-                _starsY.Add(_rng.Next(0, 481)); //all star y-coordinates are between 0 and 480
+                _starsY.Add(_rng.Next(0, 481)); //all star y-coordinates are between 0 and 480 
             }
 
             //ToDo: List of Colors
