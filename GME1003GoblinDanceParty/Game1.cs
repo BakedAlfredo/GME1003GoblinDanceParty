@@ -19,7 +19,7 @@ namespace GME1003GoblinDanceParty
         private List<float> _starRo;    //list of star rotation
         private List<float> _starTransparency; //list of star transparency
         private List<float> _starScale; //list of star scale
-        private List<Color> _starColor;
+        private List<Color> _starColor; //list of star colour
 
         private Texture2D _starSprite;  //the sprite image for our star
 
@@ -51,7 +51,7 @@ namespace GME1003GoblinDanceParty
             _starRo = new List<float>(); //stars rotation
             _starTransparency = new List<float>(); //star transparency
             _starScale = new List<float>(); //_starScale
-            _starColor = new List<Color>();
+            _starColor = new List<Color>(); //star Colour
 
 
             //_starColor = new Color(128 + _rng.Next(0,129), 128 + _rng.Next(0, 129), 128 + _rng.Next(0, 129));                   //this is a "relatively" easy way to create random colors
@@ -115,7 +115,7 @@ namespace GME1003GoblinDanceParty
             music = Content.Load<Song>("chiptune");
             
             //if you're tired of the music player, comment this out!
-            //MediaPlayer.Play(music);
+            MediaPlayer.Play(music);
 
         }
 
